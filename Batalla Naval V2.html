@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+	fieldset
+	{
+		text-align: center;
+	}
+
+	legend
+	{
+		text-align: left;
+	}
+
+	.datos 
+	{
+		text-align: center;
+	}
+
+	h1 
+	{
+		text-align: center;
+	}
+
+	#divBatalla
+	{
+		display: none;
+	}
+
+	#mostrar
+	{
+		width: 200px;
+	}
+</style>
+
+<title> Batalla Naval </title>
+
+</head>
+
+<body>
+	<h1>BATALLA NAVAL</h1>
+
+	<fieldset id="reglas">
+		<legend>Reglas</legend>
+		Para derribar un barco debe ingresar las coordenadas de este.<br>
+		Estas coordenadas estan compuestas por un numero.<br>
+		Ejemplo: (5)<br>
+	</fieldset><br>
+
+	<div class = "datos">
+		<input type="button" id="empezar" value="Empezar" onClick = "empezarJuego()"/>
+		<div id="divBatalla">
+		
+			Ingrese la coordenada(un numero entre 1-10): <br>
+			<input type="text" id="inputCoordenada"> <br>
+			<input type="button" value="Disparar" onClick="disparar()"> <br>
+			<br>
+
+			Intentos: <span id = "intentos">0</span> Aciertos: <span id = "aciertos">0</span> <br>
+			<input type="button" id="mostrar" value="Mostrar Coordenadas" onClick="mostrarCoordenadas()">
+		</div>
+	</div>
+
+	<script language="JavaScript" src=".\Batalla Naval V2.js"></script>
+
+</body>
+</html>
