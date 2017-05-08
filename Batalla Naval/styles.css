@@ -1,0 +1,54 @@
+.button {
+  background-color:blue;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+.button-container {
+  width: 400px;
+  background: gray;
+}
+.button-container > a {
+  width: 100px;
+  height: 100px;
+  float: left;
+  background: lightgray;
+  margin: 15px;
+}
+.aciertos  {
+  color: green;
+  font-size: 160%;
+}
+.intentos{
+  color: red;
+  font-size: 160%;
+}
+body{
+  font-family:'Roboto Condensed', sans-serif;
+}
+h1{
+  text-align: center;
+
+}
+table{
+  margin: auto;
+  width: 50%;
+}
+th, td{
+  border: 1px solid black;
+}
+.btn{
+  margin-left:45%;
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  cursor: pointer;
+  font-size: 100%;
+}
+.success {background-color: #4CAF50;}
+.success:hover {background-color: #46a049;}
