@@ -44,7 +44,7 @@ function posicionarBarco (){
   }
   console.log(bote);
   return bote;
-};
+}
 
 //crea la grilla con los botones del mapa
 function mapa(){
@@ -54,7 +54,7 @@ function mapa(){
     +"'  onClick='disparo(this.id);'>";
   }
     return true;
-};
+}
 
 //toma el id del boton clickeado y compara contra el vecrtor bote para establecer
 //si acerto o fallo, tambien lleva el contador para saber cuando termina el juego
@@ -80,7 +80,7 @@ function disparo(identificador){
   if (boat.length==(shot)) {
     terminarJuego(miss);
   }
-};
+}
 
 //desabilita el mapa y  muestra un mensaje al hundir el barco
 function terminarJuego(disparos){
